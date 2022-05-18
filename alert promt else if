@@ -1,0 +1,28 @@
+Напиши код, который задаст пользователю вопрос и примет от него ответ. И вывести ответы системы в зависимости от ответа пользователя.
+Для VSC создан файл js, который после вставлен в файл html. Далее Open with live server.
+
+
+let age = prompt('Enter age', ''); if (age >= '18') { alert('Vam razresheno poseshenie saita'); } else { alert('vam zapreshenoposeschenie saita'); }
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="qq.js"></script>
+    < <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
