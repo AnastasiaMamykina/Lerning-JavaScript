@@ -1,0 +1,52 @@
+Пользователю с помощью фукции promt предлагается ввести возраст.
+Если возраст больше 18, то нужно запросить имя.
+Далее нужно сделать проверки:
+если пользователю более либо равно 25 лет и его имя John, то выводим фразу "Welcom, John"
+В противном случае - "Who are you? I don't know you".
+
+Для VSC создан файл js, который после вставлен в html. Долее нажимаем Oprn with live server.
+
+let age1 = prompt('Enter age'); {
+
+    if (age1 >= '18') {
+
+        let ima = prompt("Enter name")
+    }
+}
+
+if ((age1 >= '25') && (ima = 'John')) {
+    alert("Welcom, John");
+} else {
+    alert("Who are you? I don't know you");
+}
+
+
+
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="qq1.js"></script>
+    < <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+
+ЛОГИЧЕСКИЕ ОПЕРАТОРЫ
+|| ИЛИ (если хотя бы один из аргументов дает логическое true, то и все выражение в целом будет возвращать true);
+&& И (все аргументы должны быть true);
+! НЕ (ставится перед аргументом, приводит его к логическому значению, а потом возвращает логическое значение противоположное тому, что получил);
+
+
+
