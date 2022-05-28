@@ -11,16 +11,13 @@
 
 Для VSC создан файл js, который после вставлен в html. Долее нажимаем Oprn with live server.
 
-let age1 = prompt('Enter age'); {
+let age1 = prompt('Enter age'); 
 
-    if (age1 >= '18') {
+    if (age1 >= 18) {
+    name = prompt("Enter name") }
 
-        let ima = prompt("Enter name")
-    }
-}
-
-if ((age1 >= '25') && (ima = 'John')) {
-    alert("Welcom, John");
+if (name === 'John' && age1 >= 25) {
+    alert("Welcom, John")
 } else {
     alert("Who are you? I don't know you");
 }
