@@ -1,0 +1,19 @@
+Определить функцию, которая будет запрашивать число, умножать на 327 и делить на 10. (с помощью promt запросить и с alert выдвать результат)
+
+function result() {
+let number = +prompt('enter a number');
+let number1 = number*327/10;
+alert(number1);
+}
+result();
+
+
+Определить функцию, с аргументом, которая будет запрашивать число, умножать на то значение, указанное в качестве аргумента
+(с помощью promt запросить и с alert выдвать результат)
+
+function result(peremennaya = "2") {
+let number = +prompt('enter a number');
+let number1 = number*peremennaya;
+alert(number1);
+}
+result();
